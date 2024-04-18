@@ -8,7 +8,7 @@ function App() {
   useEffect(() => {
     async function getData() {
 
-      await fetch('http://localhost:5000/api/arts')
+      await fetch('https://final3380-server-1.onrender.com/api/arts')
         .then((arts) => arts.json())
         .then((arts) => {
           setData(arts)

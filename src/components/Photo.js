@@ -17,7 +17,7 @@ const Photo = (props) => {
                 return
             }
         });
-        await fetch(`http://localhost:5000/api/art/${props.art._id}`, {
+        await fetch(`https://final3380-server-1.onrender.com/api/art/${props.art._id}`, {
             method: 'POST',
             mode: 'cors',
             cache: 'no-cache',
